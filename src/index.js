@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom/client';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
-import LoginForm from './components/login-form';
-import Navigation from './components/navigation';
+import Container from './components/container';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Navigation />, 
-  <LoginForm />
+  <Container />, 
 );
 
 

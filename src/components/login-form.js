@@ -10,7 +10,7 @@ import SubmitButton from './submit-button';
 export default class LoginForm extends React.Component {
     render() {
         return (
-            <div className="card w-75 border">
+            <div className="card w-75 border container">
                 <div className="card-header bg-primary">
                     <h3 className="text-white">Log In</h3>
                 </div>
